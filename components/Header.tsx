@@ -67,7 +67,9 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className=""></div>
+                <div className="hamburger sm:hidden block">
+                    <div className="hammer"></div>
+                </div>
             </div>
             <div className={`
                 ${showNav ? "w-1/5 bg-foreground/50" : "hidden"}
