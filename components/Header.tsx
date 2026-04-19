@@ -20,8 +20,8 @@ const Header = () => {
             <div className={`"h-full flex items-center justify-between p-4
                 ${showNav ? "w-4/5" : "w-full"}
                 `}>
-                <div className="relative w-8 h-8">
-                    <Image src="/logo.png" alt="Logo" layout="fill" objectFit="contain" />
+                <div className="relative w-15 h-10">
+                    <Image src="/images/logo.png" alt="Logo" layout="fill" objectFit="contain" />
                 </div>
                 <div className="h-max w-max flex items-center gap-5">
                     <ul className="h-max w-max flex items-center gap-4">
@@ -60,7 +60,7 @@ const Header = () => {
                     </ul>
                     <div className="h-max w-max">
                         <div className={`${activeUser ? "hidden" : "block"}`}>
-                            <Link href="/sign-in" className="text-base text-header">Sign In</Link>
+                            <Link href="/sign-in" className="text-base text-header bg-primary py-2 px-4 rounded">Sign In</Link>
                         </div>
                         <div className={`${activeUser ? "block" : "hidden"}`}>
                             <Link href="/dashboard" className="text-base text-header relative">Dashboard</Link>
