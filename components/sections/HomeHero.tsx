@@ -3,7 +3,7 @@ import Image from "next/image";
 const HomeHero = () => {
     return ( 
         <>
-        <section className="h-max sm:h-[calc(100vh-50px)] w-screen px-10 py-20 sm:py-0 flex items-center justify-start relative">
+        <section className="h-max sm:h-[calc(100vh-50px)] w-screen px-10 py-20 sm:py-0 flex items-center justify-start relative back-cover">
             <div className="absolute top-0 left-0 h-full w-full">
                 <Image src="/images/hero.jpg" fill className="object-cover" alt="hero image" />
             </div>
