@@ -10,7 +10,7 @@ const Header = () => {
     const pathname = usePathname();
 
     const [showNav, setShowNav] = useState(false);
-    const [activeUser, setActiveUser] = useState(false);
+    const [activeUser, setActiveUser] = useState(true);
 
     return ( 
         <>
