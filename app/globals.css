@@ -62,7 +62,7 @@ body {
   background: var(--primary);
 }
 
-.back-cover{
+.back-cover::before{
   content: '';
   position: absolute;
   top: 0;
