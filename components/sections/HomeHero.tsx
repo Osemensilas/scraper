@@ -12,7 +12,7 @@ const HomeHero = () => {
                 </div>
             </div>
             <div className="absolute left-0 top-0 h-full w-full">
-                <Image src="/home-hero.png" alt="Home Hero Image" fill className="object-cover" />
+                <Image src="/images/hero.jpg" alt="Home Hero Image" fill className="object-cover" />
             </div>
         </section>
         </>
