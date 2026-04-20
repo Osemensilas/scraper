@@ -11,8 +11,8 @@ const HomeHero = () => {
                     <button type="button" className="px-6 py-3 bg-primary text-white rounded-md hover:bg-primary/90 transition">Get Started</button>
                 </div>
             </div>
-            <div className="absolute right-10 top-1/2 -translate-y-1/2">
-                <Image src="/home-hero.png" alt="Home Hero Image" width={500} height={500} />
+            <div className="absolute left-0 top-0 -translate-y-1/2">
+                <Image src="/images/home-hero.png" alt="Home Hero Image" width={500} height={500} />
             </div>
         </section>
         </>

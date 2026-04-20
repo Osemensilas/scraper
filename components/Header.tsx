@@ -21,7 +21,7 @@ const Header = () => {
                 ${showNav ? "w-4/5" : "w-full"}
                 `}>
                 <div className="relative w-8 h-8">
-                    <Image src="/logo.png" alt="Logo" layout="fill" objectFit="contain" />
+                    <Image src="/images/logo.png" alt="Logo" layout="fill" objectFit="contain" />
                 </div>
                 <div className="h-max w-max flex items-center gap-5">
                     <ul className="h-max w-max flex items-center gap-4">
